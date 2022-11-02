@@ -242,42 +242,42 @@
   #history .wrap ul.list{
   width: 65%;
   } 
-  #history .potion{
+  #history .point{
   top: 10px;
   left: -629px;
   }
-  #history .potion div.po1{  
+  #history .point div.po1{  
   margin-left: 881px;
   padding-top: 31px;
   }
- #history .potion div.po2{   
+ #history .point div.po2{   
   padding-top: 71px;
   padding-left: 44px;
   }
-    #history .potion div.po3{ 
+    #history .point div.po3{ 
   margin-left: 882px;
   }
-  #history .potion div.po1 h4{
+  #history .point div.po1 h4{
     font-size: 30px;
     width: 300px;
   }
-  #history .potion div.po1 p{  
+  #history .point div.po1 p{  
   font-size: 18px;
   }
-  #history .potion div.po1 h5{
+  #history .point div.po1 h5{
     font-size: 10px;
     margin-left: -20px;
     width: 300px;
     margin-top: 10px;
   }
-#history .potion div.po2 h4{
+#history .point div.po2 h4{
     font-size: 30px;
     width: 300px;
   }
-  #history .potion div.po2 p{
+  #history .point div.po2 p{
     font-size: 18px;
   }
-  #history .potion div.po2 h5{
+  #history .point div.po2 h5{
     font-size: 10px;
     margin-left: 25px;
     display: block;
@@ -285,51 +285,51 @@
     width: 300px;
     margin-top: 10px;
   }
-  #history .potion div.po3 h4{
+  #history .point div.po3 h4{
     font-size: 30px;
     width: 300px;
   }
-  #history .potion div.po3 p{
+  #history .point div.po3 p{
     font-size: 18px;
   }
-  #history .potion div.po3 h5{
+  #history .point div.po3 h5{
     margin-left: -22px;
     display: block;
     box-sizing: border-box;
     width: 230px;
     margin-top: 16px;
   }
-#history .potion div.po3 h5 ul li{
+#history .point div.po3 h5 ul li{
   font-size: 10px;
 }
-#history .potion div.po2 h5 ul li{
+#history .point div.po2 h5 ul li{
   font-size: 10px;
   margin-left: 10px;
 }
-#history .potion div.po1 h5 ul li{
+#history .point div.po1 h5 ul li{
   font-size: 10px;
 }
-  #history .potion div.po2 h5 ul{
+  #history .point div.po2 h5 ul{
    
   }
-  #history .potion div.po3::after{
+  #history .point div.po3::after{
   left: 784px;
   height: 480px;
   top: 0;
   }
-  #history .potion div.po3::before{
+  #history .point div.po3::before{
   left: 823px;
   top: 380px;
   width: 15px;
   height: 15px;
   }
-  #history .potion div.po2::before{  
+  #history .point div.po2::before{  
   left: 823px;
   top: 217px;
   width: 15px;
   height: 15px;
   }
-  #history .potion div.po1::before{
+  #history .point div.po1::before{
   left: 824px;
   width: 15px;
   height: 15px;

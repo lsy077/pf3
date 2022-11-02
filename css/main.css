@@ -331,69 +331,69 @@ aside button::before{
   transform: rotate(-45deg);
   margin: 20px auto 5px auto;
 }
-#history .potion {
+#history .point {
   display: block;
   position: relative;
-  left: 230px;
+  right: 40px;
 }
-#history .potion div.po1 {
+#history .point div.po1 {
   margin-left: 1078px;
   line-height: 2;
 }
-#history .potion div.po1 h4 {
+#history .point div.po1 h4 {
   font-size: 80px;
   display: flex;
 }
-#history .potion div.po1 p {
+#history .point div.po1 p {
   font-size: 40px;
   /*! color: #5d5454; */
 }
-#history .potion div.po1 h5 {
+#history .point div.po1 h5 {
   font-size: 15px;
   line-height: 1.5;
   margin-left: 90px;
 }
-#history .potion div.po2 {
+#history .point div.po2 {
   margin-left: 622px;
 }
-#history .potion div.po2 p {
+#history .point div.po2 p {
   font-size: 40px;
 }
-#history .potion div.po2 h4 {
+#history .point div.po2 h4 {
   font-size: 80px;
   display: flex;
 }
-#history .potion div.po2 h5 {
+#history .point div.po2 h5 {
   margin-left: 90px;
 }
-#history .potion div.po2 h5 ul {
+#history .point div.po2 h5 ul {
   color: 1;
 }
-#history .potion div.po2 h5 ul li {
+#history .point div.po2 h5 ul li {
   font-size: 15px;
   line-height: 2;
 }
-#history .potion div.po3 {
+#history .point div.po3 {
   margin-left: 1078px;
 }
-#history .potion div.po3 p {
+#history .point div.po3 p {
   font-size: 40px;
 }
-#history .potion div.po3 h4 {
+#history .point div.po3 h4 {
  font-size: 80px;
  display: flex;
 }
-#history .potion div.po3 h5 {
+#history .point div.po3 h5 {
   margin-left: 90px;
 }
-#history .potion div.po3 h5 ul {
+#history .point div.po3 h5 ul {
   color: 1;
 }
-#history .potion div.po3 h5 ul li {
+#history .point div.po3 h5 ul li {
  font-size: 15px;
  line-height: 2;
 }
-#history .potion div.po3::after{
+#history .point div.po3::after{
   content: "";
   width: 50px;
   height: 650px;
@@ -406,7 +406,7 @@ aside button::before{
   top: -22px;
   left: 958px;
 }
-#history .potion div.po3::before{
+#history .point div.po3::before{
   content: "";
   width: 30px;
   height: 30px;
@@ -417,7 +417,7 @@ aside button::before{
   top: 504px;
   left: 991px;
 }
-#history .potion div.po2::before{
+#history .point div.po2::before{
   content: "";
   width: 30px;
   height: 30px;
@@ -428,7 +428,7 @@ aside button::before{
   top: 234px;
   left: 991px;
 }
-#history .potion div.po1::before{
+#history .point div.po1::before{
   content: "";
   width: 30px;
   height: 30px;

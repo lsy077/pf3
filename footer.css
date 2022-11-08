@@ -1,0 +1,47 @@
+/* 하단 */
+footer{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  /*! position: relative; */
+  justify-content: center;
+  display: flex;
+  align-items: center;;
+}
+footer .wrap{
+  padding-bottom: 50px;
+  width: auto;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 50px;
+}
+footer .wrap h1{
+}
+
+footer .wrap address{
+  /*! width: 90%; */
+  line-height: 1.5;
+  /*! display: flex; */
+  font-size: 20px;
+}
+footer .wrap address .first{
+  display: flex;
+  justify-content: left;
+  column-gap: 10px;
+}
+footer .wrap address .second{
+  display: flex;
+  justify-content: left;
+  column-gap: 25px;
+}
+footer .wrap p{
+  line-height: 1.5;
+}
+
+.footer_logo{
+  display: flex;
+  justify-content:center;
+  width: 80px;
+  height: 80px;
+  margin-top: -55px;
+}

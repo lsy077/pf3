@@ -1,0 +1,432 @@
+@media screen and (max-width:768px){ 
+  /* 장치가 스크린이고 화면너비가 최대768px일때(768px이하) 스타일적용 */
+#top_panel{
+  background-size:111%;  
+  width: 100%;
+  }
+  header{
+  }
+  header ul{
+  margin-top:0;
+  }
+  header ul li a{
+    font-size: 10px;   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 10px;
+    color: #fe9400; 
+  }
+  header ul li a:nth-child(1){
+    background-size: 50%;
+    width: 73%;
+    height: 100%;
+    margin-right: 12px;
+    margin-left: 1px;
+  }
+  header ul li:nth-child(1){
+    /*! padding-left: 50px; */
+    /*! margin-right: -29px; */
+  }
+  header > a{  
+  }
+  header > a:nth-of-type(1){ 
+  }
+  header > a:nth-of-type(2){
+  }
+  header::before{
+    content: "";
+    width: 20px;
+    height:20px;
+    border: 2px solid #fbc557;
+    border-radius: 50%;
+    position: absolute;
+    right: 88px;
+    top: 44px;
+  }
+  header::after{
+    content: "";
+    width: 20px;
+    height:20px;
+    border: 2px solid #f2b969;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+/* ----------------------------------------타이틀-----------------------------------------   */
+  div#title::before{
+    content: "";
+    width: 10px;
+    height:10px;
+    border: 2px solid #f2b969;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: 37px;
+  }
+  div#title::after{
+     content: "";
+    width: 25px;
+    height:25px;
+    border: 2px solid #fd9700;
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    top:50px;
+  }
+  div#title .in{
+  font-size: 15px;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 50px;
+  height: 100%;
+  margin-top: -17px;
+  }
+  div#title h2{
+  font-size: 10px;
+  }
+  div#title h2 + p{
+  font-size: 25px;
+  line-height: 2.5;
+  }
+  div#title h2 + p + p{
+  margin-bottom: 12px;
+  font-size: 10px;
+  display: block;
+  box-sizing: border-box;
+  width: 170px;
+  }
+  div#title a{
+  /*! position: static; */ /* position초기화명령(position안준상태로 되돌림) */
+  /*! width: 86%; */
+  /*! height: 50%; */
+  /*! margin-bottom: 40px; */
+  font-size: 12px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+  }
+   div#title .in::after{
+  position: static; /* position초기화명령(position안준상태로 되돌림) */
+  width: 86%;
+  height: 300px;
+  }
+  
+/* -------------------------------------회사소개---------------------------------  */
+  main{
+   margin-top: 10px;
+  }
+  section{
+  width: calc(100% - 20px);
+  display: block;
+  height: 100%;
+  }
+  .wrap{
+  }
+  section#about .company{
+  /*! flex-direction: column; */
+  align-items: center;
+  /*! text-align: center; */
+  /*! position: relative; */
+  /*! padding-bottom: 220px; */
+  margin-top: 0;
+  padding-top: 0;
+  }
+  section#about .company img{
+    background-size: 100%;
+    padding-top: 0;
+  }
+  section#about .company .subject{
+    font-size: 15px;
+  }
+  section#about .company h2 + p span{
+    font-size: 15px;
+  }
+  section#about .company h2 + p{
+    font-size: 10px;
+    line-height: 2;
+  }
+  section#about .company div:first-child{
+    padding-top: 0;
+    
+  }
+  section#about .company div{
+  margin-bottom: 20px;
+  font-size: 15px;
+  }
+  section#about .company h2 + p + p{
+  font-size: 10px;
+  padding-left: 30px;
+  }
+  section#about .company .go{
+  
+  }
+  section#about .company span.control{
+
+  }
+/*  서비스  */
+  #service{
+  display: block;
+  /*! background-size: 100%; */
+  }
+  #service .wrap{
+    
+  padding: 0;
+  }
+  #service .wrap h2.subject{
+   margin: 0 auto;
+   font-size: 20px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+  }
+  #service .wrap h2 + .p{
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  }
+  #service .wrap ul{
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  }
+  #service .wrap ul li{
+  width: 80%;
+  padding: 37px 0 40px;
+  }
+  #service .wrap ul li .icon{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  }
+  #service .wrap ul li h3{
+    font-size: 13px;
+    padding-top: 50px;
+  }
+  #service .wrap ul li .overcontents{  
+  right: 10px;
+  }
+  #service .wrap ul li .overcontents img{
+  width: 200px;
+  }
+  #service .wrap ul li .overcontents p{
+  font-size: 10px;
+  }
+/* -----------------------------------------------------history------------------------------------------------------   */
+  #history{   
+  background-size: 100%;
+  width: 100%;
+  padding-top: 0;
+  }
+  #history .wrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  #history .wrap hgroup h2{
+  padding-top: 85px;
+  font-size: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  }
+  #history .wrap hgroup h3{
+  text-align: center;
+  margin: 10px auto;
+  font-size: 10px;
+    line-height: 2
+  }
+  #history .wrap hgroup h3 span{
+    font-size: 15px;
+  }
+  #history .wrap div.list{
+  width: 65%;
+  } 
+  #history .point{
+  top: 10px;
+  left: -643px;
+  }
+  #history .point div.po1{  
+  margin-left: 881px;
+  padding-top: 31px;
+  }
+ #history .point div.po2{   
+  padding-top: 71px;
+  padding-left: 44px;
+  }
+    #history .point div.po3{ 
+  margin-left: 882px;
+  }
+  #history .point div.po1 h4{
+    font-size: 30px;
+    width: 300px;
+  }
+  #history .point div.po1 h4 strong{
+    font-size: 20px;
+  }
+  #history .point div.po1 p{  
+  font-size: 18px;
+  }
+  #history .point div.po1 p{
+    font-size: 10px;
+    margin-left: -20px;
+    width: 300px;
+    margin-top: 10px;
+  }
+#history .point div.po2 h4{
+    font-size: 30px;
+    width: 300px;
+  }
+#history .point div.po2 h4 strong{
+    font-size: 20px;
+  }
+  #history .point div.po2 .list{
+    font-size: 18px;
+  }
+  #history .point div.po2 .list{
+    font-size: 10px;
+    margin-left: 25px;
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    margin-top: 10px;
+  }
+  #history .point div.po2 div.list p{
+  font-size: 10px;
+  }
+  #history .point div.po3 h4{
+    font-size: 30px;
+    width: 300px;
+  }
+#history .point div.po3 h4 strong{
+    font-size: 20px;
+  }
+  #history .point div.po3 .list{
+    font-size: 10px;
+    margin-left: -22px;
+    display: block;
+    box-sizing: border-box;
+    width: 230px;
+    margin-top: 16px;
+  }
+#history .point div.po3 div {
+  font-size: 10px;
+}
+#history .point div.po3 div.list p{
+  font-size: 10px;
+  }
+  #history .point div.po3 .list p:nth-child(3){
+  width: 180px;
+  }
+#history .point div.po2 .list p{
+  font-size: 10px;
+  margin-left: -50px;
+}
+#history .point div.po1 .list p{
+  font-size: 10px;
+}
+  #history .point div.po2 .list{
+   
+  }
+  #history .point div.po3::after{
+  left: 784px;
+  height: 500px;
+  top: 0;
+  }
+  #history .point div.po3::before{
+  left: 823px;
+  top: 380px;
+  width: 15px;
+  height: 15px;
+  }
+  #history .point div.po2::before{  
+  left: 823px;
+  top: 217px;
+  width: 15px;
+  height: 15px;
+  }
+  #history .point div.po1::before{
+  left: 824px;
+  width: 15px;
+  height: 15px;
+  top: 30px;
+  }
+/* 오시는 길 */
+  section#location .wrap{
+  width: 100%;
+  flex-direction: column-reverse;
+  align-items: center;
+  position: relative;
+  }
+  section#location .wrap .right hgroup h2.subject{
+  font-size: 20px;
+  }
+  section#location .wrap iframe{
+  width: 86%;
+  margin-top: 24px;
+  height: 200px;
+  }
+  section#location .wrap .right{
+  text-align: center;
+  background-size: 25%;
+  height: 480px;
+  background-position-x: 555px;
+  background-position-y: 110px;
+  }
+  section#location .wrap .right a{
+  padding-left: 0px;
+  margin-top: 173px;
+  }
+  section#location .wrap .right h1{
+    font-size: 45px;
+    margin-top: -21px;
+  }
+  section#location .wrap .right a::after{
+  
+  }
+  section#location .wrap .right h1::after{    
+  width: 400px;
+  top: 416px;
+  left: 513px;
+  }
+/*  하단  */
+  footer .wrap{
+  width: calc(100% - 20px);
+  flex-direction: column;
+  /*! align-items: center; */
+  /*! text-align: center; */
+  line-height: 1.5;
+  margin-left: 20px;
+  }
+  footer .wrap p.copyright{
+  position: static;
+  font-size: 12px;
+  line-height: 2;
+  margin-bottom: 20px;
+  }
+  .block{
+    display: block;
+  }
+  .footer_logo{
+    padding-left: 14px;
+  }
+  footer .wrap address{
+    font-size: 9px;
+  }
+.top_button{
+  height: 50px;
+  width: 50px; 
+}
+.top_button a{ 
+  font-size: 10px;
+}
+.top_button a::before{
+  margin: 15px auto -6px auto;
+}
+}
